@@ -1,0 +1,31 @@
+{
+  "name": "dc-vertical-stacked-bar-chart",
+  "description": "DC Vertical Stacked Bar Chart",
+  "version": "1.0.0",
+  "keywords": [
+    "dc.js",
+    "visualization"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublish": "npm run build"
+  },
+  "repository": "https://github.com/PopulateTools/dc-vertical-stacked-bar-chart",
+  "main": "dist/index.js",
+  "dependencies": {
+    "crossfilter2": "^1.4.5",
+    "d3-array": "2.12.1",
+    "d3-scale": "2.2.2",
+    "d3-selection": "2.0.0",
+    "d3-transition": "2.0.0",
+    "dc": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
